@@ -1,0 +1,107 @@
+{
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "files.autoSave": "onFocusChange",
+  "search.exclude": {
+    "**/node_modules": false,
+    "**/dist-web": true,
+    "**/dist-wechat": true,
+    "**/dist-electron": true,
+    "**/out": true,
+    ".awcache": true,
+    "/main.js": true,
+    "**/output-electron-temp": true,
+    "**/output-electron": true,
+    "**/output-web": true,
+  },
+  "markdownlint.run": "onSave",
+  "markdownlint.config": {
+    "MD013": false,
+    "MD040": false
+  },
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/dist-web": true,
+    "**/dist-wechat": true,
+    "**/dist-electron": true,
+    "**/out": true,
+    "tslint-rules/**/*.js": true,
+    ".awcache": true,
+    ".eslintcache": true,
+    "/main.js": true,
+    "**/output-electron-temp": true,
+    "**/output-electron": true,
+    "**/output-web": true,
+
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.tabSize": 2,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.eslintIntegration": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.disableLanguages": [
+    "vue"
+  ],
+  "prettier.ignorePath": ".prettierignore",
+  "prettier.jsxBracketSameLine": false,
+  "prettier.parser": "babylon",
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "preserve",
+  "prettier.requireConfig": false,
+  "prettier.tabWidth": 2,
+  "prettier.tslintIntegration": false,
+  "prettier.useTabs": false,
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".jsx",
+      ".vue",
+    ],
+  },
+  "eslint.provideLintTask": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+  ],
+  "tslint.enable": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.alwaysShowStatus": true,
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  // at the time of this writing there is no stylus support by prettier
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.validation.style": true,
+  // Validate vue-html in <template> using eslint-plugin-vue
+  "vetur.validation.template": true,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force"
+    }
+  },
+  "vetur.format.scriptInitialIndent": true,
+  "vetur.format.styleInitialIndent": true,
+  "less.compile": {
+    "out": false,
+  }
+}

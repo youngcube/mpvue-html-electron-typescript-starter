@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "eg2.tslint",
+    "msjsdiag.debugger-for-chrome",
+    "samverschueren.final-newline",
+    "DmitryDorofeev.empty-indent",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "dmitrydorofeev.empty-indent",
+    "debian001.app-migrator",
+    "octref.vetur",
+    "samverschueren.final-newline",
+    "msjsdiag.debugger-for-chrome",
+    "mrmlnc.vscode-less",
+    "mrcrowl.easy-less",
+    "davidanson.vscode-markdownlint",
+  ]
+}

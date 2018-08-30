@@ -1,0 +1,9 @@
+{
+  "pages": "<!-- @WxPages -->",
+  "window": {
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "<!-- @MainTitle -->",
+    "navigationBarTextStyle": "black"
+  }
+}

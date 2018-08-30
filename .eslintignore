@@ -1,0 +1,5 @@
+build_wechat/*.js
+build_web/*.js
+build_electron/*.js
+build_common/*.js
+config/*.js
