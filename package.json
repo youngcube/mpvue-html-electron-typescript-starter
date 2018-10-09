@@ -7,12 +7,12 @@
   "main": "./dist-electron/electron/main.js",
   "scripts": {
     "openwechatdev": "/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/bin/cli -o $pwd",
-    "dev:wechat": "yarn & cross-env PLATFORM=wechat node build_wechat/dev-server.js",
-    "dev:web": "yarn & cross-env PLATFORM=web webpack-dev-server --inline --progress --hot --host 0.0.0.0 --config build_web/webpack.dev.conf.js",
-    "dev:electron": "yarn & cross-env PLATFORM=electron node build_electron/dev-runner.js",
-    "build:wechat": "yarn & cross-env PLATFORM=wechat node build_common/build.js",
-    "build:web": "yarn & cross-env PLATFORM=web node build_common/build.js",
-    "build:electron": "yarn & cross-env PLATFORM=electron node build_electron/build.js && electron-builder",
+    "dev:wechat": "yarn && cross-env PLATFORM=wechat node build_wechat/dev-server.js",
+    "dev:web": "yarn && cross-env PLATFORM=web webpack-dev-server --inline --progress --hot --host 0.0.0.0 --config build_web/webpack.dev.conf.js",
+    "dev:electron": "yarn && cross-env PLATFORM=electron node build_electron/dev-runner.js",
+    "build:wechat": "yarn && cross-env PLATFORM=wechat node build_common/build.js",
+    "build:web": "yarn && cross-env PLATFORM=web node build_common/build.js",
+    "build:electron": "yarn && cross-env PLATFORM=electron node build_electron/build.js && electron-builder",
     "start": "npm run dev:wechat",
     "eslint": "eslint --ext .js,.vue src --fix",
     "tslint": "tslint --fix -c tslint.json 'src/**/*.ts'"

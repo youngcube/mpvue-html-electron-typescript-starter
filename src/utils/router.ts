@@ -1,21 +1,17 @@
 import Router, { RouteConfig } from 'vue-router'
 import index from '@/pages/index/index.vue'
-import store from '@/pages/store/index.vue'
+import store from '@/store'
 import { AppUrls } from '@/utils/consts'
 
-const routes: Array<RouteConfig> = [
+const routes: RouteConfig[] = [
   {
     path: '/',
     component: index,
   },
-  {
-    path: AppUrls.STORE,
-    component: store,
-  },
 ]
 
 const router = new Router({
-  routes: routes,
+  routes,
 })
 
 export default router
